@@ -5,3 +5,5 @@ script:
 import:
 - source: travis/tests.yml
   if: branch = dev
+- source: travis/auf.yml
+  if: branch = master

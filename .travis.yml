@@ -3,5 +3,5 @@ python: 3.8
 script:
   echo Starting test and build...
 import:
-- source: Travis files/testsDEVandPRERELEASE
+- source: Travis files/testsDEVandPRERELEASE.yml
   if: branch = dev
